@@ -15,6 +15,8 @@
 		0A2E295F21943894002F1654 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E295E21943894002F1654 /* main.m */; };
 		0A2E296921943894002F1654 /* CellMultipleSelectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E296821943894002F1654 /* CellMultipleSelectionTests.m */; };
 		0A2E297421943894002F1654 /* CellMultipleSelectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E297321943894002F1654 /* CellMultipleSelectionUITests.m */; };
+		0A2E298321943901002F1654 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E298121943901002F1654 /* DataTableViewCell.m */; };
+		0A2E29862194390E002F1654 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E29842194390D002F1654 /* DataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0A2E296F21943894002F1654 /* CellMultipleSelectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellMultipleSelectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2E297321943894002F1654 /* CellMultipleSelectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellMultipleSelectionUITests.m; sourceTree = "<group>"; };
 		0A2E297521943894002F1654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2E298121943901002F1654 /* DataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+		0A2E298221943901002F1654 /* DataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
+		0A2E29842194390D002F1654 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		0A2E29852194390E002F1654 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				0A2E295021943893002F1654 /* AppDelegate.m */,
 				0A2E295221943893002F1654 /* ViewController.h */,
 				0A2E295321943893002F1654 /* ViewController.m */,
+				0A2E298221943901002F1654 /* DataTableViewCell.h */,
+				0A2E298121943901002F1654 /* DataTableViewCell.m */,
+				0A2E29852194390E002F1654 /* DataModel.h */,
+				0A2E29842194390D002F1654 /* DataModel.m */,
 				0A2E295521943893002F1654 /* Main.storyboard */,
 				0A2E295821943894002F1654 /* Assets.xcassets */,
 				0A2E295A21943894002F1654 /* LaunchScreen.storyboard */,
@@ -263,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2E295421943893002F1654 /* ViewController.m in Sources */,
+				0A2E29862194390E002F1654 /* DataModel.m in Sources */,
 				0A2E295F21943894002F1654 /* main.m in Sources */,
 				0A2E295121943893002F1654 /* AppDelegate.m in Sources */,
+				0A2E298321943901002F1654 /* DataTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +446,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T5M6ML8L2;
 				INFOPLIST_FILE = CellMultipleSelection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T5M6ML8L2;
 				INFOPLIST_FILE = CellMultipleSelection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
